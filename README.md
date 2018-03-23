@@ -1,4 +1,4 @@
 # out
-out in the world  
+Experimental and learning site. 
 Yo!
 
