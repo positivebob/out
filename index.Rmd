@@ -33,6 +33,8 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 "C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS index.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --table-of-contents --toc-depth 2 --variable toc_float=1 --variable toc_selectors=h1,h2 --variable toc_collapsed=1 --variable toc_smooth_scroll=1 --variable toc_print=1 --template
 "C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS index.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --table-of-contents --toc-depth 2 --variable toc_float=1 --variable toc_selectors=h1,h2 --variable toc_collapsed=1 --variable toc_smooth_scroll=1 --variable toc_print=1 --template 
 
+https://github.com/positivebob/out/blob/gh-pages/code/main.R
+
 
 ### This other thing alone    
 
