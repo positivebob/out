@@ -55,8 +55,7 @@ library(rmarkdown)
 # library(lazyeval)
 ```
 
-
-# Quarterly Results {.tabset .tabset-fade .tabset-pills}
+# Quarterly Results {.tabset}
 
 ## By Product
 

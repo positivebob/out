@@ -39,7 +39,7 @@ if (window.hljs) {
   hljs.configure({languages: []});
   hljs.initHighlightingOnLoad();
   if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+    window.setTimeout(function() { hljs.initHighlightingOnLoad(); }, 0);
   }
 }
 </script>
@@ -248,7 +248,7 @@ library(rmarkdown)
 </div>
 </div>
 </div>
-<div id="quarterly-results" class="section level1 tabset tabset-fade tabset-pills">
+<div id="quarterly-results" class="section level1 tabset">
 <h1>Quarterly Results</h1>
 <div id="by-product" class="section level2">
 <h2>By Product</h2>
